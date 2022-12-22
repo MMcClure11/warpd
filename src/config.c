@@ -42,10 +42,10 @@ static struct {
 	{ "grid", "g", "Activate (g)rid mode while in normal mode.", OPT_KEY },
 	{ "screen", "s", "Activate (s)creen selection while in normal mode.", OPT_KEY },
 
-	{ "left", "h", "Move the cursor left in normal mode.", OPT_KEY },
-	{ "down", "j", "Move the cursor down in normal mode.", OPT_KEY },
-	{ "up", "k", "Move the cursor up in normal mode.", OPT_KEY },
-	{ "right", "l", "Move the cursor right in normal mode.", OPT_KEY },
+	{ "left", "n", "Move the cursor left in normal mode.", OPT_KEY },
+	{ "down", "e", "Move the cursor down in normal mode.", OPT_KEY },
+	{ "up", "a", "Move the cursor up in normal mode.", OPT_KEY },
+	{ "right", "o", "Move the cursor right in normal mode.", OPT_KEY },
 	{ "top", "H", "Moves the cursor to the top of the screen in normal mode.", OPT_KEY },
 	{ "middle", "M", "Moves the cursor to the middle of the screen in normal mode.", OPT_KEY },
 	{ "bottom", "L", "Moves the cursor to the bottom of the screen in normal mode.", OPT_KEY },
@@ -76,7 +76,7 @@ static struct {
 	{ "grid_left", "a", "Move the grid left.", OPT_KEY },
 	{ "grid_down", "s", "Move the grid down.", OPT_KEY },
 	{ "grid_right", "d", "Move the grid right.", OPT_KEY },
-	{ "grid_keys", "u i j k", "A sequence of comma delimited keybindings which are ordered bookwise with respect to grid position.", OPT_KEY },
+	{ "grid_keys", "f u n e", "A sequence of comma delimited keybindings which are ordered bookwise with respect to grid position.", OPT_KEY },
 	{ "grid_exit", "c", "Exit grid mode and return to normal mode.", OPT_KEY },
 
 	{ "grid_size", "4", "The thickness of grid lines in pixels.", OPT_INT },
